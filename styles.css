@@ -1,22 +1,26 @@
+
+/*-- Carregando as Fonts --*/
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+AU+SA:wght@100..400&display=swap');
+
+/* font-family: "Playwrite AU SA", serif; */
+
 /* Reset básico */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 1.4;
 }
 
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    color: #333;
-    background-color: #f9f9f9;
+img {
+    max-width: 100%;
 }
 
-.container {
-    width: 90%;
-    max-width: 1200px;
-    margin: 0 auto;
-}
+body {}
+
+/* HEADER */
+/*-- Estilização do Container Header que compreende todo o cabeçalho --*/
 
 .header {
     background-color: #0078d7;
@@ -24,14 +28,45 @@ body {
     padding: 2rem 0;
     text-align: center;
 }
-
+    
+/*-- Estilização do Título do Header --*/
 .header h1 {
     font-size: 2.5rem;
+    font-family: Playwrite AU SA, sans-serif;
 }
 
-.header p {
-    font-size: 1.2rem;
-    margin-top: 0.5rem;
+/*-- Estilização do Subtítulo do Header --*/
+.header h2 {
+    margin-top: 15px;
+    font-size: 1.5rem;
+    font-family: Playwrite AU SA, sans-serif;
+}
+
+/*-- Configuração do Container do Cabeçalho com texto e foto --*/
+.header .container {
+    width: 90%;
+    margin: 20px auto;
+    display: flex;
+    gap: 20px;
+}
+
+/*-- Configuração do Container dos textos --*/
+.header .container .texto {
+    text-align: left;
+}
+
+/*-- Estilização do Parágrafo do Header --*/
+.header .container .texto p {
+    font-size: 1rem;
+    text-indent: 2rem;
+}
+
+
+/*-- Estilização da foto do Tailon no Header --*/
+.header .container img {
+    width: 200px;
+    border-radius: 50%;
+    box-shadow: 0 4px 6px #000;
 }
 
 .projects {
