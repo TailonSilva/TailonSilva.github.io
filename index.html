@@ -1,51 +1,40 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólio de Projetos</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Meu Portfólio</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <header class="header">
+    <header>
         <h1>Bem-vindo ao Meu Portfólio</h1>
-        <h2>Olá! Tudo bem? Prazer, sou Tailon Silva!</h2>
-        <div class="container">
-            <div class="texto">
-                <p>Apaixonado por tecnologia e desenvolvimento web, sou uma pessoa curiosa e sempre em busca de aprender algo novo. Atuo como gerente de contas na área de tecnologia, onde desenvolvi habilidades de comunicação, resolução de problemas e gestão de projetos. No entanto, meu grande objetivo é migrar para o desenvolvimento de sistemas, área pela qual sou verdadeiramente apaixonado.</p>
-                <p>Além do universo digital, sou fã de esportes e atividade física, que me ajudam a manter o equilíbrio entre mente e corpo. Determinado e focado, estou sempre a explorar maneiras de unir minha experiência profissional com minha vocação pelo desenvolvimento tecnológico.</p>   
-            </div>
-            <img src="./img/foto_tailon.jpg" alt="Foto do Tailon">
-    
-        </div>
     </header>
-    
-    <section class="projects">
-        <div class="container">
-            <h2>Projetos</h2>
-            <div class="project-grid">
-                <div class="project-card">
-                    <h3>Projeto 1</h3>
-                    <p>Descrição breve do projeto.</p>
-                </div>
-                <div class="project-card">
-                    <h3>Projeto 2</h3>
-                    <p>Descrição breve do projeto.</p>
-                </div>
-                <div class="project-card">
-                    <h3>Projeto 3</h3>
-                    <p>Descrição breve do projeto.</p>
-                </div>
-                <div class="project-card">
-                    <h3>Projeto 4</h3>
-                    <p>Descrição breve do projeto.</p>
-                </div>
-            </div>
+
+    <section id="carrossel">
+        <div class="carousel">
+            <div class="carousel-item"><img src="img/capa-manaus.jpg" alt="Imagem 1"></div>
+            <div class="carousel-item"><img src="img/capa-portoalegre.jpg" alt="Imagem 2"></div>
+            <div class="carousel-item"><img src="img/capa-riodejaneiro.jpg" alt="Imagem 3"></div>
         </div>
     </section>
 
-    <footer class="footer">
-        <p>&copy; 2025 Meu Portfólio. Todos os direitos reservados.</p>
-    </footer>
+    <section id="projetos">
+        <h2>Meus Projetos</h2>
+        <div class="card">
+            <h3>Projeto 1</h3>
+            <p>Descrição do projeto 1.</p>
+        </div>
+        <div class="card">
+            <h3>Projeto 2</h3>
+            <p>Descrição do projeto 2.</p>
+        </div>
+        <div class="card">
+            <h3>Projeto 3</h3>
+            <p>Descrição do projeto 3.</p>
+        </div>
+    </section>
+
+    <script src="js/scripts.js"></script>
 </body>
 </html>
