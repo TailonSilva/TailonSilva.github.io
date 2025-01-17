@@ -8,3 +8,12 @@
 img {
     max-width: 100%;
 }
+
+
+main {
+    display: flex;
+    gap: 30px;
+    max-width: 1000px;
+    margin: 15px auto;
+    background-color: #fff;
+}

@@ -1,6 +1,7 @@
 .capa-container {
-    width: 1000px;
-    margin: 20px auto;
+    width: 800px;
+    margin: auto;
+    position: relative;
 }
 
 .capa {
@@ -9,6 +10,7 @@
     background-color: aqua;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    background-color: aqua;
     
 }
 
@@ -22,16 +24,19 @@
 }
 
 .capa-container>img {
-    width: 200px;
-    position: relative;
-    top: -100px;
+    width: 160px;
+    position: absolute;
+    top: 80px;
     left: 50px;
     border-radius: 50%;
-    border: 5px solid white;
+    border: 3px solid white;
     box-shadow: 2px 2px 5px #00000050;
 }
 
-.dados-container {}
+.dados-container {
+    background-color: blue;
+    display: flex;
+}
 
 .informacoes h1 {}
 
