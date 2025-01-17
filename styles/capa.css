@@ -35,7 +35,14 @@
 
 .dados-container {
     background-color: blue;
-    display: flex;
+    display: grid;
+    grid-template: 
+    "informacoes locais-atuais" 
+    "buttons buttons";
+}
+
+.informacoes {
+    grid-area: informacoes;
 }
 
 .informacoes h1 {}
@@ -44,9 +51,14 @@
 
 .informacoes h5 {}
 
-.locais-atuais {}
+.locais-atuais {
+    grid-area: locais-atuais;
+    background-color: green;
+}
 
-.emprego-atual {}
+.emprego-atual {
+    background-color: yellow;
+}
 
 .emprego-atual img {}
 
@@ -62,6 +74,11 @@
 
 .escola-atual p {}
 
-.dados-container button {}
+.dados-container .buttons {
+    grid-area: buttons;
+    background-color: red;
+}
+
+.buttons button {}
 
 
