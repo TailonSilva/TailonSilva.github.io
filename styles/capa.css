@@ -2,6 +2,8 @@
     width: 800px;
     margin: auto;
     position: relative;
+    border: 1px solid #00000027;
+    border-radius: 10px;
 }
 
 .capa {
@@ -27,48 +29,90 @@
     width: 160px;
     position: absolute;
     top: 80px;
-    left: 50px;
+    left: 40px;
     border-radius: 50%;
     border: 3px solid white;
     box-shadow: 2px 2px 5px #00000050;
 }
 
 .dados-container {
-    background-color: blue;
+    background-color: #fff;
     display: grid;
     grid-template: 
     "informacoes locais-atuais" 
-    "buttons buttons";
+    "buttons buttons"
+    / 2fr 1fr;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding-top: 50px;
 }
 
 .informacoes {
     grid-area: informacoes;
+    padding-left: 40px;
 }
 
-.informacoes h1 {}
+.informacoes h1 {
+    font-size: 24px;
+    color: #111;
+}
 
-.informacoes h2 {}
+.informacoes h1 img {
+    width: 20px;
+    margin-bottom: -3px;
+    margin-left: -3px;
+}
 
-.informacoes h5 {}
+.informacoes h2 {
+    font-size: 16px;
+    font-weight: 100;
+    color: #222;
+}
+
+.informacoes h5 {
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 100;
+    color: #333;
+}
 
 .locais-atuais {
     grid-area: locais-atuais;
-    background-color: green;
 }
 
 .emprego-atual {
-    background-color: yellow;
+    display: grid;
+    grid-template: 
+    'img h3'
+    'img p';
+    padding: 10px;
 }
 
-.emprego-atual img {}
+.emprego-atual img {
+    grid-area: img;
+    width: 40px;
+    object-fit: cover;
+    margin: 10px;
+}
 
 .emprego-atual h3 {}
 
 .emprego-atual p {}
 
-.escola-atual {}
+.escola-atual {
+    display: grid;
+    grid-template: 
+    'img h3'
+    'img p';
+    padding: 10px;
+}
 
-.escola-atual img {}
+.escola-atual img {
+    grid-area: img;
+    width: 40px;
+    object-fit: cover;
+    margin: 10px;
+}
 
 .escola-atual h3 {}
 
@@ -76,7 +120,15 @@
 
 .dados-container .buttons {
     grid-area: buttons;
-    background-color: red;
+    background-color: #fff;
+    padding: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
 }
 
 .buttons button {}
