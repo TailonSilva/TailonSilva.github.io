@@ -12,7 +12,10 @@
     background-color: aqua;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    background-color: aqua;
+    background-image: url('../assets/img/capa_dança.jpg');
+    background-size: cover;
+    background-position: center;
+
     
 }
 
@@ -37,18 +40,14 @@
 
 .dados-container {
     background-color: #fff;
-    display: grid;
-    grid-template: 
-    "informacoes locais-atuais" 
-    "buttons buttons"
-    / 2fr 1fr;
+    display: flex;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     padding-top: 50px;
 }
 
 .informacoes {
-    grid-area: informacoes;
+    width: 60%;
     padding-left: 40px;
 }
 
@@ -77,14 +76,15 @@
 }
 
 .locais-atuais {
-    grid-area: locais-atuais;
+    margin-top: -50px;
 }
 
 .emprego-atual {
     display: grid;
     grid-template: 
     'img h3'
-    'img p';
+    'img p'
+    /  60px 1fr;
     padding: 10px;
 }
 
@@ -95,9 +95,18 @@
     margin: 10px;
 }
 
-.emprego-atual h3 {}
+.emprego-atual h3 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 12px;
 
-.emprego-atual p {}
+}
+
+.emprego-atual p {
+    font-size: 14px;
+    font-weight: 100;
+    margin-top: -10px;
+}
 
 .escola-atual {
     display: grid;
@@ -114,9 +123,15 @@
     margin: 10px;
 }
 
-.escola-atual h3 {}
+.escola-atual h3 {
+    font-size: 16px;
+    font-weight: bold;
+}
 
-.escola-atual p {}
+.escola-atual p {
+    font-size: 14px;
+    font-weight: 100;
+}
 
 .dados-container .buttons {
     grid-area: buttons;
