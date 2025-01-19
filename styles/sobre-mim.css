@@ -1,0 +1,34 @@
+.sobre-mim {
+  width: 100%;
+  background-color: #fff;
+  border: 1px solid #00000027;
+  border-radius: 10px;
+  padding: 15px 40px;
+}
+
+.sobre-mim h2 {
+  font-size: 24px;
+  color: #111;
+}
+
+.sobre-mim p {}
+
+.container-softskils {
+  margin: 15px 5px;
+  border: 1px solid #00000027;
+  padding: 5px;
+  display: flex;
+  border-radius: 5px;
+}
+
+.container-softskils img {
+  width: 40px;
+  height: 40px;
+}
+
+.softskils {
+  display: flex;
+  gap: 10px;
+}
+
+.softskils p {}

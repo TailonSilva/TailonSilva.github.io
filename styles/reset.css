@@ -28,9 +28,16 @@ body {
 
 
 .container-central {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
     width: 800px;
+
 }
 
 .container-navegacao {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
     width: 180px;
 }
