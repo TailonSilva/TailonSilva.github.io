@@ -24,11 +24,22 @@ header {
     width: 32px;
 }
 
-.header-left .containerPesquisa {}
+.header-left .containerPesquisa {
+    position: relative;
+}
 
-.header-left .containerPesquisa img {}
+.header-left .containerPesquisa img {
+    position: absolute;
+    width: 20px;
+    left: 5px;
+    top: 5px;
+}
 
-.header-left .containerPesquisa input {}
+.header-left .containerPesquisa input {
+    width: 200px;
+    height: 30px;
+    padding-left: 30px;
+}
 
 .header-right {
     display: flex;
@@ -49,7 +60,10 @@ header {
     display: block;
 }
 
-.header-right .redeSocial p {}
+.header-right .redeSocial p {
+    font-size: 10px;
+    color:#333
+}
 
 
 
