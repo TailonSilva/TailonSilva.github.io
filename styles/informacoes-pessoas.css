@@ -11,8 +11,18 @@
   color: #111;
 }
 
-.informacoes-pessoas p {}
+.informacoes-pessoas p {
+  font-weight: bold;
+}
 
-.informacoes-pessoas p span {}
+.informacoes-pessoas p span {
+  font-weight: normal;
+}
+
+.informacoes-pessoas p img {
+  width: 15px;
+  margin-left: 5px;
+}
+
 
 
