@@ -1,0 +1,38 @@
+.informacoes-escolares {
+  width: 100%;
+  background-color: #fff;
+  border: 1px solid #00000027;
+  border-radius: 10px;
+  padding: 15px 40px;
+}
+
+.informacoes-escolares h2 {
+  font-size: 24px;
+  color: #111;
+  
+}
+
+.informacoes-escolares>div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.escola {
+  display: flex;
+}
+
+.escola img {
+  width: 40px;
+  object-fit: cover;
+  margin: 10px;
+}
+
+.escola h3 {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.escola p {
+  font-size: 14px;
+  font-weight: 100;
+}
