@@ -1,14 +1,14 @@
 .informacoes-pessoas {
   width: 100%;
-  background-color: #fff;
-  border: 1px solid #00000027;
+  background-color: var(--fundo-container);
+  border: 1px solid var(--box-border);
   border-radius: 10px;
   padding: 15px 40px;
 }
 
 .informacoes-pessoas h2 {
   font-size: 24px;
-  color: #111;
+  color: var(--fundo-cinza-1);
 }
 
 .informacoes-pessoas p {

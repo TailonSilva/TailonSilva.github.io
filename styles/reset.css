@@ -1,3 +1,15 @@
+:root {
+    --fundo-container: #fff;
+    --fundo-cinza-claro: #ececec;
+    --fundo-cinza-1: #111;
+    --fundo-cinza-2: #222;
+    --fundo-cinza-3: #333;
+    --fundo-cinza-hover: #ddd;
+    --box-shadow: #ececec;
+    --box-border: #00000027;
+  }
+  
+
 * {
     margin: 0;
     padding: 0;
@@ -12,7 +24,7 @@ img {
 
 
 body {
-    background-color: #ececec;
+    background-color: var(--fundo-cinza-claro);
     display: flex;
     flex-direction: column;
     gap: 15px;

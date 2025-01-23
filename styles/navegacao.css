@@ -6,7 +6,7 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-    border: 1px solid #00000027;
+    border: 1px solid var(--box-border);;
     border-radius: 10px;
 
 }
@@ -16,10 +16,10 @@
     display: flex;
     align-items: center;
     padding: 10px 15px;
-    background-color: #fff;
+    background-color: var(--fundo-container);
     font-size: 16px;
     position: relative;
-    color: #111;
+    color: var(--fundo-cinza-1);
 }
 
 /*-- linha de Separação entre os itens do Menu --*/
@@ -29,13 +29,13 @@
     width: 80%;
     content: '';
     height: 1px;
-    background-color: #00000027;
+    background-color: var(--box-border);;
     
 }
 
 /*-- Efeito de hover item do menu de navegação --*/
 .menu-desktop a:hover {
-    background-color: #ddd;
+    background-color: var(--fundo-cinz-hover);
     transition: 0.4s;    
 }
 
@@ -43,7 +43,7 @@
 .menu-desktop a:hover p {
     transform: translateX(5px);
     transition: 0.4s;
-    color: #111;
+    color: var(--fundo-cinz-1);
 }
 
 

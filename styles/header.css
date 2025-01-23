@@ -1,8 +1,8 @@
 header {
     width: 100%;
     height: 62px;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
-    background-color: #fff;
+    box-shadow: 2px 2px 5px var(--box-shadow);
+    background-color: var(--fundo-container);
 }
 
 .header-container {
@@ -62,7 +62,7 @@ header {
 
 .header-right .redeSocial p {
     font-size: 10px;
-    color:#333
+    color: var(--fundo-cinza-3);
 }
 
 
