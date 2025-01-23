@@ -1,0 +1,47 @@
+.cursos {
+  width: 100%;
+  background-color: #fff;
+  border: 1px solid #00000027;
+  border-radius: 10px;
+  padding: 15px 40px;
+  position: relative;
+}
+
+.cursos .header-cursos {
+  display: flex;justify-content: space-between;
+}
+
+.cursos .header-cursos h2 {
+  font-size: 24px;
+  color: #111;
+}
+
+.cursos .header-cursos button {}
+
+.cursos .informacoes-cursos {}
+
+.cursos .informacoes-cursos h3 {}
+
+.cursos .informacoes-cursos p {}
+
+.cursos .card-cursos {
+  display: flex;
+}
+
+.cursos div img {
+  width: 300px;
+}
+
+.cursos .controles {
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cursos .controles .prev {}
+
+.cursos .controles .next {}
