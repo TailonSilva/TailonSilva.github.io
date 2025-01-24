@@ -1,3 +1,4 @@
+/* Estilização da parte de cima do cantainer da capa, no HTML tem uma div vazia */
 .capa {
     width: 100%;
     height: 200px;
@@ -5,21 +6,11 @@
     border-top-right-radius: 10px;
     background-image: url('../assets/img/capa_dança.jpg');
     background-size: cover;
-    background-position: center;
-
-    
+    background-position: center; 
 }
 
-.capa img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-
-}
-
-.capa-container>img {
+/* Estilização da imagem de perfil */
+.container>img {
     width: 160px;
     position: absolute;
     top: 80px;

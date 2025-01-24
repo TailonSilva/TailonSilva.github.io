@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 
+<!-- Inicio das Meta TAG do Documento HTML -->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Tailon Silva - Gerente de Negócios da Rech Informática">
-    <meta name="keywords"
-        content="Tailon Silva, Rech Informática, Gerente de Negócios, Desenvolvimento Web, HTML, CSS, JavaScript, Node JS, React">
+    <meta name="keywords" content="Tailon Silva, Rech Informática, Gerente de Negócios, Desenvolvimento Web, HTML, CSS, JavaScript, Node JS, React">
     <meta name="author" content="Tailon Silva">
 
     <!-- Titulo da Pagina -->
@@ -21,16 +21,14 @@
     <!-- Link do Documento CSS que vai carregar demais configurações de CSS -->
     <link rel="stylesheet" href="./styles/global.css">
 </head>
+<!-- Fim das Meta TAG do Documento HTML -->
 
 <!-- Inicio do Corpo do Documento HTML -->
 <body>
 
-    <!-- Inicio do Cabeçalho | CSS: styles/header.css -->
-    <header>
-        
-        <div class="header-container">
-
-            <div class="header-left">
+    <header><!-- Inicio do Cabeçalho | CSS: styles/header.css -->
+        <div class="header-container"><!-- Container do Cabeçalho 1000px -->
+            <div class="header-left"><!-- Container Esquerdo do Cabeçalho com logo e com a caixa de pesquisa -->
                 <img src="assets/img/icones/ico_t.png" alt="Logo Linkedin">
                 <div class="containerPesquisa">
                     <img src="./assets/img/icones/ico_pesquisa.png" alt="Pesquisar">
@@ -38,7 +36,7 @@
                 </div>
             </div>
 
-            <div class="header-right">
+            <div class="header-right"><!-- Container Direto do Cabeçalho com redes sociais e links -->
                 <a href="wa.link/7rwuiv" target="_blank" class="redeSocial">
                     <img src="./assets/img/icones/ico_whatsapp.png" alt="WhatsApp">
                     <p>WhatsApp</p>
@@ -56,47 +54,44 @@
                     <p>E-mail</p>
                 </a>
             </div>
-
         </div>
+    </header><!-- Fim do Cabeçalho -->
 
-    </header>
 
-    <div class="container-geral ">
-        <div class="container-central container-flex">
-            <main>
-                <div class="capa-container">
-                    <div class="capa"></div>
+    <div class="container-geral "><!-- Inicio do Container Principal do layout do site, que contém a divisão do layout / container-central e container-navegação -->
 
-                    <img src="assets/img/foto_perfil.jpg" alt="Foto de Tailon Silva">
+        <div class="container-central container-flex"><!-- Inicio do Container cental / Tamanho de 800px -->
 
-                    <div class="dados-container">
-                        <div class="informacoes">
+            <main class="container"><!-- Inicio da Capa do Perfil | CSS: styles/capa.css -->
+                <div class="capa"></div>
 
-                            <h1>Tailon Silva <img src="assets/img/icones/ico_verificado.png"
-                                    alt="Icone de onta Verificada"></h1>
+                <img src="assets/img/foto_perfil.jpg" alt="Foto de Tailon Silva">
+
+                <div class="dados-container">
+                    <div class="informacoes">
+
+                        <h1>Tailon Silva <img src="assets/img/icones/ico_verificado.png" alt="Icone de onta Verificada"></h1>
                             <h2>Estudante de Desenvolvimento Web</h2>
                             <h2>HTML | CSS | JavaScript | Node JS | React</h2>
                             <h5>São Leopoldo - Rio Grande do Sul | Brasil</h5>
+                    </div>
 
+                    <div class="locais-atuais">
+
+                        <div class="emprego-atual">
+                            <img src="assets/img/logo_rech.jpg" alt="Rech Informática">
+                            <h3>Rech Informática</h3>
+                            <p>Gerente de Contas | Comercial</p>
                         </div>
 
-                        <div class="locais-atuais">
-                            <div class="emprego-atual">
-                                <img src="assets/img/logo_rech.jpg" alt="Rech Informática">
-                                <h3>Rech Informática</h3>
-                                <p>Gerente de Contas | Comercial</p>
-                            </div>
-
-                            <div class="escola-atual">
-                                <img src="assets/img/logo_vincit.jpg" alt="Faculdade Vincit">
-                                <h3>Faculdade Vincit</h3>
-                                <p>Analise e Desenvolvimento de Sistemas</p>
-                            </div>
-
+                        <div class="escola-atual">
+                            <img src="assets/img/logo_vincit.jpg" alt="Faculdade Vincit">
+                            <h3>Faculdade Vincit</h3>
+                            <p>Analise e Desenvolvimento de Sistemas</p>
                         </div>
+
                     </div>
                 </div>
-
             </main>
 
             <Section class="sobre-mim">
@@ -378,11 +373,14 @@
 
         </div>
 
+    </div><!-- Fim do Container Principal do layout do site, que contém a divisão do layout / container-central e container-navegação -->
+
 
         <footer>
         </footer>
 
         <script src="./scripts/main.js"></script>
 </body>
+<!-- Fim do Corpo do Documento HTML -->
 
 </html>

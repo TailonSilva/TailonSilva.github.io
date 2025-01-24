@@ -39,10 +39,11 @@ body {
     width: 180px;
 }
 
-.capa-container {
+.container {
     width: 100%;
     margin: auto;
     position: relative;
     border: 1px solid var(--box-border);
     border-radius: 10px;
+    background-color: var(--fundo-container);
 }
