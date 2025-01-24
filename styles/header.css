@@ -21,7 +21,7 @@ header {
 }
 
 .header-left img {
-    width: 40px;
+    width: 50px;
 }
 
 .header-left .containerPesquisa {
@@ -62,7 +62,7 @@ header {
 
 .header-right .redeSocial p {
     font-size: 10px;
-    color: var(--fundo-cinza-3);
+    color: var(--texto--3);
 }
 
 
