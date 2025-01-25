@@ -47,3 +47,34 @@ body {
     border-radius: 10px;
     background-color: var(--fundo-container);
 }
+
+/* Estilização do card com img titulo e subtitulo das instituições de ensino e empresas */
+.grid-card {
+    display: grid;
+    grid-template: 
+    'img h3'
+    'img p'
+    /  60px 1fr;
+    padding: 10px;
+}
+
+
+.grid-card img {
+    grid-area: img;
+    width: 40px;
+    object-fit: cover;
+    margin: 10px;
+}
+
+.grid-card h3 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 12px;
+
+}
+
+.grid-card p {
+    font-size: 14px;
+    font-weight: 100;
+    margin-top: -10px;
+}

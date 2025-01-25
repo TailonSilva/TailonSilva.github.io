@@ -26,7 +26,8 @@
 <!-- Inicio do Corpo do Documento HTML -->
 <body>
 
-    <header><!-- Inicio do Cabeçalho | CSS: styles/header.css -->
+<!-- Inicio do Cabeçalho | CSS: styles/header.css -->
+<header>
         <div class="header-container"><!-- Container do Cabeçalho 1000px -->
             <div class="header-left"><!-- Container Esquerdo do Cabeçalho com logo e com a caixa de pesquisa -->
                 <img src="assets/img/icones/ico_t.png" alt="Logo Linkedin">
@@ -55,46 +56,48 @@
                 </a>
             </div>
         </div>
-    </header><!-- Fim do Cabeçalho -->
+</header>
+<!-- Fim do Cabeçalho -->
 
+<!-- Inicio do Container Principal do layout do site, que contém a divisão do layout / container-central e container-navegação -->
+<div class="container-geral ">
 
-    <div class="container-geral "><!-- Inicio do Container Principal do layout do site, que contém a divisão do layout / container-central e container-navegação -->
+    <!-- Inicio do Container cental / Tamanho de 800px -->
+    <div class="container-central container-flex">
 
-        <div class="container-central container-flex"><!-- Inicio do Container cental / Tamanho de 800px -->
+        <!-- Inicio da Capa do Perfil | CSS: styles/capa.css -->
+        <main class="container">
+            <div class="capa"></div>
 
-            <main class="container"><!-- Inicio da Capa do Perfil | CSS: styles/capa.css -->
-                <div class="capa"></div>
+            <img src="assets/img/foto_perfil.jpg" alt="Foto de Tailon Silva">
 
-                <img src="assets/img/foto_perfil.jpg" alt="Foto de Tailon Silva">
-
-                <div class="dados-container">
-                    <div class="informacoes">
-
-                        <h1>Tailon Silva <img src="assets/img/icones/ico_verificado.png" alt="Icone de onta Verificada"></h1>
-                            <h2>Estudante de Desenvolvimento Web</h2>
-                            <h2>HTML | CSS | JavaScript | Node JS | React</h2>
-                            <h5>São Leopoldo - Rio Grande do Sul | Brasil</h5>
-                    </div>
-
-                    <div class="locais-atuais">
-
-                        <div class="emprego-atual">
-                            <img src="assets/img/logo_rech.jpg" alt="Rech Informática">
-                            <h3>Rech Informática</h3>
-                            <p>Gerente de Contas | Comercial</p>
-                        </div>
-
-                        <div class="escola-atual">
-                            <img src="assets/img/logo_vincit.jpg" alt="Faculdade Vincit">
-                            <h3>Faculdade Vincit</h3>
-                            <p>Analise e Desenvolvimento de Sistemas</p>
-                        </div>
-
-                    </div>
+            <div class="dados-container">
+                <div class="informacoes">
+                    <h1>Tailon Silva <img src="assets/img/icones/ico_verificado.png" alt="Icone de onta Verificada"></h1>
+                    <h2>Estudante de Desenvolvimento Web</h2>
+                    <h2>HTML | CSS | JavaScript | Node JS | React</h2>
+                    <h5>São Leopoldo - Rio Grande do Sul | Brasil</h5>
                 </div>
-            </main>
 
-            <Section class="sobre-mim">
+                <div class="locais-atuais">
+                    <div class="grid-card">
+                        <img src="assets/img/logo_rech.jpg" alt="Rech Informática">
+                        <h3>Rech Informática</h3>
+                        <p>Gerente de Contas | Comercial</p>
+                    </div>
+
+                    <div class="grid-card">
+                        <img src="assets/img/logo_vincit.jpg" alt="Faculdade Vincit">
+                        <h3>Faculdade Vincit</h3>
+                        <p>Analise e Desenvolvimento de Sistemas</p>
+                    </div>
+
+                </div>
+            </div>
+        </main>
+        <!-- Fim da Capa do Perfil -->
+
+        <Section class="sobre-mim">
                 <h2>Sobre Mim</h2>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta reiciendis impedit, fugit soluta cum
                     nulla consequatur unde saepe culpa! Neque cupiditate laudantium voluptas fugit quasi quisquam ipsam
@@ -117,9 +120,9 @@
                 </div>
 
 
-            </Section>
+        </Section>
 
-            <Section class="informacoes-pessoas">
+        <Section class="informacoes-pessoas">
                 <h2>Informações Pessoais</h2>
                 <p>Nome Completo:<span>Tailon Tegner da Silva</span></p>
                 <p>Data de Nascimento:<span>10/11/1993</span></p>
@@ -130,9 +133,9 @@
                         - RS, 93115-454</span></p>
                 <p>Nome Completo:<span>Tailon Tegner da Silva</span></p>
 
-            </Section>
+        </Section>
 
-            <Section class="informacoes-escolares">
+        <Section class="informacoes-escolares">
                 <h2>Currículo Escolar</h2>
 
                 <div>
@@ -178,9 +181,9 @@
                     </div>
                 </div>
 
-            </Section>
+        </Section>
 
-            <Section class="informacoes-empresas">
+        <Section class="informacoes-empresas">
                 <h2>Currículo de Trabalho</h2>
 
                 <div>
@@ -212,9 +215,9 @@
                     </div>
                 </div>
 
-            </Section>
+        </Section>
 
-            <section class="cursos">
+        <section class="cursos">
                 <div class="header-cursos">
                     <h2>Cursos e Certificações</h2>
                     <button>Veja Todos</button>
@@ -236,11 +239,13 @@
                     <button class="next">></button>
                 </div>
 
-            </section>
+        </section>
 
 
-        </div>
-        <div class="container-navegacao container-flex">
+    </div>
+    <!-- Fim do Container Central / Tamanho de 800px -->
+
+    <div class="container-navegacao container-flex">
 
             <div class="navegação">
 
@@ -371,15 +376,16 @@
 
             </div>
 
-        </div>
+    </div>
 
-    </div><!-- Fim do Container Principal do layout do site, que contém a divisão do layout / container-central e container-navegação -->
+</div>
+<!-- Fim do Container Principal do layout do site, que contém a divisão do layout / container-central e container-navegação -->
 
 
-        <footer>
-        </footer>
+<footer>
+</footer>
 
-        <script src="./scripts/main.js"></script>
+<script src="./scripts/main.js"></script>
 </body>
 <!-- Fim do Corpo do Documento HTML -->
 

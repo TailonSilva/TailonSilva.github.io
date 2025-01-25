@@ -20,6 +20,7 @@
     box-shadow: 2px 2px 5px var(--box-shadow);
 }
 
+/* Estilização da parte de baixo container com imformações pessoais */
 .dados-container {
     background-color: var(--fundo-container);
     display: flex;
@@ -60,74 +61,3 @@
 .locais-atuais {
     margin-top: -50px;
 }
-
-.emprego-atual {
-    display: grid;
-    grid-template: 
-    'img h3'
-    'img p'
-    /  60px 1fr;
-    padding: 10px;
-}
-
-.emprego-atual img {
-    grid-area: img;
-    width: 40px;
-    object-fit: cover;
-    margin: 10px;
-}
-
-.emprego-atual h3 {
-    font-size: 16px;
-    font-weight: bold;
-    margin-top: 12px;
-
-}
-
-.emprego-atual p {
-    font-size: 14px;
-    font-weight: 100;
-    margin-top: -10px;
-}
-
-.escola-atual {
-    display: grid;
-    grid-template: 
-    'img h3'
-    'img p';
-    padding: 10px;
-}
-
-.escola-atual img {
-    grid-area: img;
-    width: 40px;
-    object-fit: cover;
-    margin: 10px;
-}
-
-.escola-atual h3 {
-    font-size: 16px;
-    font-weight: bold;
-}
-
-.escola-atual p {
-    font-size: 14px;
-    font-weight: 100;
-}
-
-.dados-container .buttons {
-    grid-area: buttons;
-    background-color: var(--fundo-container);
-    padding: 10px;
-    border-bottom-right-radius: 10px;
-    border-bottom-left-radius: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-
-}
-
-.buttons button {}
-
-
