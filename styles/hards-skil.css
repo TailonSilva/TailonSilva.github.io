@@ -17,7 +17,8 @@
 .hards-skils ul {}
 
 .hards-skils ul li {
-  list-style: none;
+  position: relative;
+  height: 25px;
 }
 
 .hards-skils ul li+li {
