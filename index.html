@@ -1,318 +1,295 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
-<!-- Inicio das Meta TAG do Documento HTML -->
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Tailon Silva - Gerente de Negócios da Rech Informática">
-    <meta name="keywords" content="Tailon Silva, Rech Informática, Gerente de Negócios, Desenvolvimento Web, HTML, CSS, JavaScript, Node JS, React">
-    <meta name="author" content="Tailon Silva">
-
-    <!-- Titulo da Pagina -->
-    <title>Tailon Silva - Gerente de Negócios da Rech Informática</title>
-
-    <!-- Icone de Favicon | Apresentado na Aba do navegador -->
-    <link rel="icon" type="image/x-icon" href="./assets/img/icones/ico_t.png">
-
-    <!-- Link do Documento CSS que vai carregar as variasveis com o tema da Pagina via JS | Light=Claro e Dark=Escuro -->
-    <link rel="stylesheet" href="./styles/themes/light.css">
-
-    <!-- Link do Documento CSS que vai carregar demais configurações de CSS -->
-    <link rel="stylesheet" href="./styles/global.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Connecta CRM: plataforma comercial completa para organizar clientes, atendimentos, agenda, orcamentos, pedidos e indicadores em um unico sistema.">
+  <meta name="keywords" content="CRM comercial, vendas, orcamentos, pedidos, indicadores, agenda comercial, Connecta CRM">
+  <meta name="author" content="Tailon Silva">
+  <title>Connecta CRM | Plataforma comercial para vender melhor</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Sora:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles/global.css">
 </head>
-<!-- Fim das Meta TAG do Documento HTML -->
-
-<!-- Inicio do Corpo do Documento HTML -->
 <body>
+  <div class="page-shell">
+    <header class="site-header">
+      <a class="brand" href="#topo" aria-label="Connecta CRM">
+        <span class="brand-mark">C</span>
+        <span class="brand-text">
+          <strong>Connecta CRM</strong>
+          <small>Vendas com processo, previsibilidade e escala</small>
+        </span>
+      </a>
 
-<!-- Inicio do Cabeçalho | CSS: styles/header.css -->
-<header>
-        <div class="header-container"><!-- Container do Cabeçalho 1000px -->
-            <div class="header-left"><!-- Container Esquerdo do Cabeçalho com logo e com a caixa de pesquisa -->
-                <img src="assets/img/icones/ico_t.png" alt="Logo Linkedin">
-                <div class="containerPesquisa">
-                    <img src="./assets/img/icones/ico_pesquisa.png" alt="Pesquisar">
-                    <input type="text" placeholder="Aqui é só front-end, Hehe">
-                </div>
-            </div>
+      <nav class="main-nav" aria-label="Navegacao principal">
+        <a href="#modulos">Modulos</a>
+        <a href="#demonstracoes">Demonstracoes</a>
+        <a href="#diferenciais">Diferenciais</a>
+        <a href="#implantacao">Implantacao</a>
+      </nav>
 
-            <div class="header-right"><!-- Container Direto do Cabeçalho com redes sociais e links -->
-                <a href="wa.link/7rwuiv" target="_blank" class="redeSocial">
-                    <img src="./assets/img/icones/ico_whatsapp.png" alt="WhatsApp">
-                    <p>WhatsApp</p>
-                </a>
-                <a href="https://www.facebook.com/tailon.tegner" target="_blank" class="redeSocial">
-                    <img src="./assets/img/icones/ico_facebook.png" alt="Facebook">
-                    <p>Facebook</p>
-                </a>
-                <a href="https://www.instagram.com/tailontegner/" target="_blank" class="redeSocial">
-                    <img src="./assets/img/icones/ico_instagram.png" alt="Instagram">
-                    <p>Instagram</p>
-                </a>
-                <a href="mailto:tailontdasilva@gmail.com" target="_blank" class="redeSocial">
-                    <img src="./assets/img/icones/ico_gmail.png" alt="E-mail">
-                    <p>E-mail</p>
-                </a>
-            </div>
-        </div>
-</header>
-<!-- Fim do Cabeçalho -->
+      <a class="header-cta" href="#contato">Quero uma demonstracao</a>
+    </header>
 
-<!-- Inicio do Container Principal do layout do site, que contém a divisão do layout / container-central e container-navegação -->
-<div class="container-geral ">
+    <main id="topo">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">CRM orientado a operacao comercial real</p>
+          <h1>Menos planilha, menos retrabalho, mais controle sobre cada venda.</h1>
+          <p class="hero-text">
+            O Connecta CRM integra clientes, agenda, atendimentos, orcamentos, pedidos,
+            devolucoes, comissoes e indicadores em uma unica plataforma para empresas
+            que precisam vender melhor e decidir com mais seguranca.
+          </p>
 
-    <!-- Inicio do Container cental / Tamanho de 800px -->
-    <div class="container-central container-flex">
+          <div class="hero-actions">
+            <a class="button button-primary" href="#contato">Agendar apresentacao</a>
+            <a class="button button-secondary" href="#demonstracoes">Ver o sistema em acao</a>
+          </div>
 
-        <!-- Inicio da Capa do Perfil | CSS: styles/capa.css -->
-        <main class="container">
-            <div class="capa"></div>
-
-            <img src="assets/img/foto_perfil.jpg" alt="Foto de Tailon Silva">
-
-            <div class="dados-container">
-                <div class="informacoes">
-                    <h1>Tailon Silva <img src="assets/img/icones/ico_verificado.png" alt="Icone de onta Verificada"></h1>
-                    <h2>Estudante de Desenvolvimento Web</h2>
-                    <h2>HTML | CSS | JavaScript | Node JS | React</h2>
-                    <h5>São Leopoldo - Rio Grande do Sul | Brasil</h5>
-                </div>
-
-                <div class="locais-atuais">
-                    <div class="grid-card">
-                        <img src="assets/img/logo_rech.jpg" alt="Rech Informática">
-                        <h3>Rech Informática</h3>
-                        <p>Gerente de Contas | Comercial</p>
-                    </div>
-
-                    <div class="grid-card">
-                        <img src="assets/img/logo_vincit.jpg" alt="Faculdade Vincit">
-                        <h3>Faculdade Vincit</h3>
-                        <p>Analise e Desenvolvimento de Sistemas</p>
-                    </div>
-
-                </div>
-            </div>
-        </main>
-        <!-- Fim da Capa do Perfil -->
-
-        <!-- Inicio Sessão Sobre mim | CSS: styles/sobre-mim.css -->
-        <Section class="container sobre-mim">
-
-            <h2>Sobre Mim</h2>
-            <p>Sempre em busca de novas oportunidades para aprender e crescer, isso o que me define. Acredito no poder do conhecimento e da criatividade para enfrentar desafios e encontrar soluções inovadoras.</p>
-            <p>Com uma abordagem positiva e proativa, encaro a vida com entusiasmo e determinação, esforçando-me para alcançar os meus objetivos e superar as expectativas.</p>
-            <p>Valorizo as relações interpessoais e gosto de trabalhar em equipa, pois acredito que a colaboração é essencial para alcançar o sucesso. Nos meus tempos livres, dedico-me a praticar esportes, estudar e procuro constantemente formas de equilibrar a minha vida pessoal e profissional.</p>
-            <p>Para mim, cada dia é uma oportunidade de fazer a diferença</p>
-                
-            <div class="container-softskils">
-                <img src="./assets/img/icones/ico_soft_skils.png" alt="Icone Soft Skils">
-            
-                <div class="softskils">
-                    <p>Comunicação</p>
-                    <p>Trabalho em Equipe</p>
-                    <p>Proatividade</p>
-                    <p>Empatia</p>
-                    <p>Resiliência</p>
-                    <p>Responsabilidade</p>
-                    <p>Curiosidade</p>
-                    <p>Organização</p>
-                </div>
-
-            </div>
-
-        </Section>
-        <!-- Fim Sessão Sobre mim -->
-
-        <Section class="informacoes-pessoas">
-                <h2>Informações Pessoais</h2>
-                <p>Nome Completo:<span>Tailon Tegner da Silva</span></p>
-                <p>Data de Nascimento:<span>10/11/1993</span></p>
-                <p>Idade:<span>31</span><Span>Anos</Span></p>
-                <p>Nascido em:<span>Jaquirana | RS</span><img src="./assets/img/icones/ico_localizacao.png"
-                        alt="Icone Localização de Jaquirana - RS"></p>
-                <p>Morando em:<span>Condomínio Vila Germânica - R. Ricardo João Merker, 44 - Santos Dumont, São Leopoldo
-                        - RS, 93115-454</span></p>
-                <p>Nome Completo:<span>Tailon Tegner da Silva</span></p>
-
-        </Section>
-
-        <Section class="informacoes-escolares">
-                <h2>Currículo Escolar</h2>
-
-                <div>
-                    <div class="escola">
-                        <img src="assets/img/logo_vincit.jpg" alt="Faculdade Vincit">
-                        <div>
-                            <h3>Faculdade Vincit</h3>
-                            <p>Analise e Desenvolvimento de Sistemas</p>
-                            <p>2024, ainda em Curso - Previsão de Conclusão 2026</p>
-                        </div>
-                    </div>
-                    <div class="escola">
-                        <img src="assets/img/logo_vincit.jpg" alt="Escola Técnica Olímpio">
-                        <div>
-                            <h3>Escola Técnica Olímpio</h3>
-                            <p>Técnico em Administração</p>
-                            <p>2013 a 2016</p>
-                        </div>
-                    </div>
-                    <div class="escola">
-                        <img src="assets/img/logo_vincit.jpg" alt="Escola Estadual 25 de Julho">
-                        <div>
-                            <h3>Escola Estadual 25 de Julho</h3>
-                            <p>Ensino Médio</p>
-                            <p>2009 até 2011</p>
-                        </div>
-                    </div>
-                    <div class="escola">
-                        <img src="assets/img/logo_vincit.jpg" alt="Escola Estadual Dom Pedro II">
-                        <div>
-                            <h3>Escola Estadual Dom Pedro II</h3>
-                            <p>8º Série</p>
-                            <p>2008</p>
-                        </div>
-                    </div>
-                    <div class="escola">
-                        <img src="assets/img/logo_vincit.jpg" alt="Escola municipal Getúlio Vargas">
-                        <div>
-                            <h3>Escola municipal Getúlio Vargas</h3>
-                            <p>Ensino Infamtil e Fundamental</p>
-                            <p>1998 Até 2007</p>
-                        </div>
-                    </div>
-                </div>
-
-        </Section>
-
-        <Section class="informacoes-empresas">
-                <h2>Currículo de Trabalho</h2>
-
-                <div>
-                    <div class="empresa">
-                        <img src="assets/img/logo_rech.jpg" alt="Rech Informática">
-                        <div>
-                            <h3>Rech Informática</h3>
-                            <p>Gerente de Contas</p>
-                            <p>Março/2024 até o momento</p>
-                            <p>10 Meses</p>
-                        </div>
-                    </div>
-                    <div class="empresa">
-                        <img src="assets/img/logo_koch.jpg" alt="Koch Epis">
-                        <div>
-                            <h3>Koch Epis</h3>
-                            <p>Gerente Comercial</p>
-                            <p>Março/2021 até Março/2024</p>
-                            <p>3 Anos</p>
-                        </div>
-                    </div>
-                    <div class="empresa">
-                        <img src="assets/img/logo_barramares.jpg" alt="Barramares Jaquetas Personalizadas">
-                        <div>
-                            <h3>Barramares Jaquetas Personalizadas</h3>
-                            <p>Março/2011 até Dezembro/2020</p>
-                            <p>9 Anos e 10 Meses</p>
-                        </div>
-                    </div>
-                </div>
-
-        </Section>
-
-        <section class="cursos">
-                <div class="header-cursos">
-                    <h2>Cursos e Certificações</h2>
-                    <button>Veja Todos</button>
-                </div>
-                <div class="card-cursos">
-                    <div class="informacoes-cursos">
-                        <h3>Fundamentos de Designer</h3>
-                        <p>Academia Hostnet</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium sed voluptates nobis
-                            magni nihil veritatis quibusdam mollitia, consequuntur eveniet aperiam nam, nostrum at unde
-                            illo magnam eius natus minus quia?</p>
-
-                    </div>
-                    <img src="./assets/img/certificados/Fundamentos de Designer - Academia Hostnet.jpg" alt="">
-                </div>
-
-                <div class="controles">
-                    <button class="prev"><</button>
-                    <button class="next">></button>
-                </div>
-
-        </section>
-
-
-    </div>
-    <!-- Fim do Container Central / Tamanho de 800px -->
-
-    <!-- Inicio do Container Lateral / Tamanho de 180px -->
-    <div class="container-navegacao container-flex">
-
-        <!-- Inicio do Container de Navegação | CSS: styles/navegacao.css -->
-        <div class="navegação">
-
-            <nav class="menu-desktop">
-                <a href=""><p>Home</p></a>
-                <a href=""><p>Sobre Mim</p></a>
-                <a href=""><p>Informações Pessoas</p></a>
-                <a href=""><p>Informações Acadêmicas</p></a>
-                <a href=""><p>Cursos</p></a>
-                <a href=""><p>Projetos</p></a>
-            </nav>
-
-        </div>
-        <!-- Fim do Container de Navegação -->
-
-        <!-- Inicio do Container de Hards Skils | CSS: styles/hards-skil.css -->
-        <div class="hards-skils">
-            <h2>Hard Skils</h2>
-
-            <ul>
-                <li>HTML</li>
-                <li>CSS 3</li>
-                <li>JavaScript</li>
-                <li>Node JS</li>
-                <li>React</li>
-                <li>TypeScript</li>
-            </ul>
-
-        </div>
-        <!-- Fim do Container de Hards Skils -->
-
-        <div class="projetos">
-            <h2>Meus Projetos</h2>
-
-            <div class="projeto-item">
-                <img src="./assets/img/icones/ico_calculadora.png" alt="Projeto Calculadora">
-
-                <div>
-                    <h3>Calculadora</h3>
-                    <ul>
-                        <li>HTML 5</li>
-                        <li>CSS 3</li>
-                        <li>JavaScript</li>
-                    </ul>
-                    <button>Ver</button>
-                </div>
-            </div>
+          <div class="hero-metrics">
+            <article>
+              <strong>Carteira organizada</strong>
+              <span>Clientes, contatos, historico e filtros inteligentes.</span>
+            </article>
+            <article>
+              <strong>Funil conectado</strong>
+              <span>Atendimento, orcamento, pedido e comissao no mesmo fluxo.</span>
+            </article>
+            <article>
+              <strong>Gestao executiva</strong>
+              <span>Dashboards, relatorios e leitura por vendedor, produto e regiao.</span>
+            </article>
+          </div>
         </div>
 
-    </div>
+        <div class="hero-media">
+          <div class="hero-video-card">
+            <div class="hero-video-copy">
+              <span class="video-chip">Demonstacao real</span>
+              <h2>Do orcamento ao pedido em poucos cliques</h2>
+              <p>Um fluxo pensado para acelerar a operacao comercial sem perder rastreabilidade.</p>
+            </div>
+            <video autoplay muted loop playsinline controls poster="./assets/img/cadastro-da-empresa.png">
+              <source src="./assets/videos/pedido-a-partir-do-orcamento.webm" type="video/webm">
+              Seu navegador nao suporta video HTML5.
+            </video>
+          </div>
 
-</div>
+          <aside class="hero-proof">
+            <img src="./assets/img/cadastro-da-empresa.png" alt="Tela de cadastro da empresa no Connecta CRM">
+            <div>
+              <strong>Altamente configuravel</strong>
+              <p>Campos, grids, cards e estrutura operacional ajustados a realidade de cada empresa.</p>
+            </div>
+          </aside>
+        </div>
+      </section>
 
-</div>
-<!-- Fim do Container Principal do layout do site, que contém a divisão do layout / container-central e container-navegação -->
+      <section class="value-strip" aria-label="Proposta de valor">
+        <article>
+          <span>Controle</span>
+          <p>Cada etapa do relacionamento comercial fica registrada, consultavel e padronizada.</p>
+        </article>
+        <article>
+          <span>Produtividade</span>
+          <p>Atalhos, modais de busca, foco inteligente e filtros persistidos aceleram a rotina.</p>
+        </article>
+        <article>
+          <span>Gestao</span>
+          <p>A lideranca acompanha o que esta acontecendo de verdade na carteira e no funil.</p>
+        </article>
+      </section>
 
+      <section class="section section-intro" id="modulos">
+        <div class="section-heading">
+          <p class="eyebrow">Tudo o que a operacao precisa em um unico lugar</p>
+          <h2>Uma plataforma comercial completa, do primeiro contato ao indicador final.</h2>
+          <p>
+            O Connecta CRM foi pensado para empresas com vendas consultivas, rotina de acompanhamento,
+            orcamentos com conversao em pedido e necessidade de leitura gerencial da operacao.
+          </p>
+        </div>
 
-<footer>
-</footer>
+        <div class="feature-grid">
+          <article class="feature-card">
+            <h3>Clientes e contatos</h3>
+            <p>Base comercial organizada com vendedor responsavel, grupos, historico e importacao assistida.</p>
+          </article>
+          <article class="feature-card">
+            <h3>Agenda comercial</h3>
+            <p>Compromissos semanais com grade detalhada, recursos, status e identificacao visual de conflitos.</p>
+          </article>
+          <article class="feature-card">
+            <h3>Atendimentos</h3>
+            <p>Relacao comercial rastreavel por cliente, contato, canal, origem e evolucao da oportunidade.</p>
+          </article>
+          <article class="feature-card">
+            <h3>Orcamentos profissionais</h3>
+            <p>Itens, imagens, etapas, PDF com identidade visual e bloqueios que preservam a consistencia do fluxo.</p>
+          </article>
+          <article class="feature-card">
+            <h3>Pedidos e devolucoes</h3>
+            <p>Processo comercial completo com comissao, etapas, motivos de devolucao e leitura de impacto real.</p>
+          </article>
+          <article class="feature-card">
+            <h3>Indicadores e dashboards</h3>
+            <p>Visao executiva por vendedor, produto, marca, cliente, UF, devolucao, conversao e positivacao.</p>
+          </article>
+        </div>
+      </section>
 
-<script src="./scripts/main.js"></script>
+      <section class="section showcase" id="demonstracoes">
+        <div class="section-heading">
+          <p class="eyebrow">Veja o produto funcionando</p>
+          <h2>Demonstracoes que mostram a aplicacao real, nao apenas promessa.</h2>
+          <p>
+            Abaixo voce encontra fluxos essenciais do sistema. Selecione um modulo para trocar a demonstracao em destaque.
+          </p>
+        </div>
+
+        <div class="showcase-layout">
+          <div class="showcase-player">
+            <div class="player-copy">
+              <span class="video-chip" id="player-kicker">Modulo em destaque</span>
+              <h3 id="player-title">Inclusao de Orcamento</h3>
+              <p id="player-description">Monte propostas com itens, valores, etapas comerciais e gere PDF profissional com identidade da empresa.</p>
+            </div>
+            <video id="featured-video" autoplay muted loop playsinline controls poster="./assets/img/cadastro-da-empresa.png">
+              <source id="featured-video-source" src="./assets/videos/inclusao-de-orcamento.webm" type="video/webm">
+              Seu navegador nao suporta video HTML5.
+            </video>
+          </div>
+
+          <div class="showcase-list" role="tablist" aria-label="Lista de modulos demonstrados">
+            <button class="demo-card is-active" type="button" data-title="Inclusao de Orcamento" data-description="Monte propostas com itens, valores, etapas comerciais e gere PDF profissional com identidade da empresa." data-video="./assets/videos/inclusao-de-orcamento.webm">
+              <span>Orcamentos</span>
+              <small>Funil mais padronizado e propostas mais consistentes.</small>
+            </button>
+            <button class="demo-card" type="button" data-title="Inclusao de Clientes" data-description="Cadastre clientes, organize contatos, mantenha historico comercial e ganhe qualidade de base desde a implantacao." data-video="./assets/videos/inclusao-de-clientes.webm">
+              <span>Clientes</span>
+              <small>Carteira organizada e pronta para operar.</small>
+            </button>
+            <button class="demo-card" type="button" data-title="Inclusao de Produtos" data-description="Estruture o catalogo com codigo, referencia, marca, grupo, unidade, imagem e historico de vendas." data-video="./assets/videos/inclusao-de-produtos.webm">
+              <span>Produtos</span>
+              <small>Catalogo padronizado para vender e analisar melhor.</small>
+            </button>
+            <button class="demo-card" type="button" data-title="Inclusao de Agenda" data-description="Organize visitas, reunioes e ligacoes com suporte a recursos, status e filtros por usuario, cliente e vendedor." data-video="./assets/videos/inclusao-de-agenda.webm">
+              <span>Agenda</span>
+              <small>Compromissos transformados em processo comercial.</small>
+            </button>
+            <button class="demo-card" type="button" data-title="Pedido a partir do Orcamento" data-description="Converta uma proposta em pedido de forma natural, mantendo continuidade operacional, rastreabilidade e velocidade no fechamento." data-video="./assets/videos/pedido-a-partir-do-orcamento.webm">
+              <span>Pedido</span>
+              <small>Fechamento fluido, sem retrabalho.</small>
+            </button>
+            <button class="demo-card" type="button" data-title="Altamente configuravel" data-description="Ajuste configuracoes do negocio, estrutura da pagina inicial, grids e campos sem depender de desenvolvimento para cada detalhe." data-video="./assets/videos/altamente-configuravel.webm">
+              <span>Configuracoes</span>
+              <small>Produto adaptavel a diferentes operacoes.</small>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section class="section highlight-grid" id="diferenciais">
+        <article class="highlight-card accent-card">
+          <p class="eyebrow">Diferenciais comerciais</p>
+          <h2>Um CRM desenhado para a rotina do time comercial.</h2>
+          <p>
+            O Connecta CRM nao para no cadastro. Ele conecta atendimento, agenda, orcamento,
+            pedido, devolucao, comissao, configuracao e leitura executiva em uma mesma estrutura.
+          </p>
+        </article>
+
+        <article class="highlight-card">
+          <h3>Configuracao sem dependencia tecnica</h3>
+          <p>Usuarios, vendedores, etapas, marcas, ramos, campos, grids e cards podem ser ajustados pela operacao.</p>
+        </article>
+
+        <article class="highlight-card">
+          <h3>Usabilidade pensada para produtividade</h3>
+          <p>Foco automatico, atalhos de teclado, filtros persistidos e modais reutilizaveis reduzem o tempo por tarefa.</p>
+        </article>
+
+        <article class="highlight-card">
+          <h3>Leitura operacional e gerencial juntas</h3>
+          <p>A equipe executa o processo enquanto a lideranca acompanha vendas, conversao, devolucoes e carteira ativa.</p>
+        </article>
+      </section>
+
+      <section class="section benefits-section">
+        <div class="section-heading">
+          <p class="eyebrow">O que muda na pratica</p>
+          <h2>Beneficios claros para empresas que querem crescer com previsibilidade.</h2>
+        </div>
+
+        <div class="benefits-list">
+          <article>
+            <strong>Mais organizacao comercial</strong>
+            <p>Toda a jornada do cliente passa a ter historico, regra e acompanhamento.</p>
+          </article>
+          <article>
+            <strong>Mais velocidade no atendimento</strong>
+            <p>Dados centralizados, busca rapida e fluxos conectados economizam tempo da equipe.</p>
+          </article>
+          <article>
+            <strong>Mais padronizacao nas propostas</strong>
+            <p>Orcamentos e pedidos seguem uma estrutura unica, com menos margem para erro.</p>
+          </article>
+          <article>
+            <strong>Mais visibilidade para decidir</strong>
+            <p>Indicadores deixam a lideranca enxergar carteira, conversao e desempenho real da operacao.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section architecture-section" id="implantacao">
+        <div class="section-heading">
+          <p class="eyebrow">Implantacao simples e produto robusto</p>
+          <h2>Arquitetura leve para colocar a operacao em movimento com menos dependencia externa.</h2>
+        </div>
+
+        <div class="architecture-panel">
+          <div class="stack-pillars">
+            <span>Electron</span>
+            <span>React</span>
+            <span>Express</span>
+            <span>SQLite</span>
+            <span>Releases</span>
+          </div>
+          <p>
+            O modelo atual combina aplicacao desktop com interface moderna e banco local,
+            facilitando distribuicao, uso pratico e atualizacao da solucao.
+          </p>
+        </div>
+      </section>
+
+      <section class="section cta-section" id="contato">
+        <div class="cta-card">
+          <div>
+            <p class="eyebrow">Resumo executivo</p>
+            <h2>Connecta CRM e para empresas que precisam vender melhor, acompanhar melhor e decidir melhor.</h2>
+            <p>
+              Se a sua operacao ainda depende de controles dispersos, este e o momento de centralizar
+              clientes, agenda, propostas, pedidos e indicadores em uma plataforma comercial completa.
+            </p>
+          </div>
+
+          <div class="cta-actions">
+            <a class="button button-primary" href="mailto:tailontdasilva@gmail.com?subject=Quero%20uma%20demonstracao%20do%20Connecta%20CRM">Solicitar demonstracao</a>
+            <a class="button button-secondary" href="#topo">Voltar ao topo</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Connecta CRM</p>
+      <span>CRM comercial completo para organizar processo, acelerar a equipe e ampliar a leitura da gestao.</span>
+    </footer>
+  </div>
+
+  <script src="./js/main.js"></script>
 </body>
-<!-- Fim do Corpo do Documento HTML -->
-
 </html>
